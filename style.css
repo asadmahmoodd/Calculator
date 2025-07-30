@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+body{
+    font-size: 2rem;
+    font-family: 'Michroma';
+    background-color: rgb(69, 125, 125);
+}
+#display{
+    background-color: rgb(207, 207, 207);
+    width: 98%;
+    height: 4rem;
+    margin-bottom:5%;
+   }
+#cal-heading{
+    font-size: 14pt;
+    margin: 0%;
+    margin-bottom: 2%;
+}
+#main-container{
+    max-width: 25vw;
+    min-width: 280px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    align-self: center;
+    justify-self: center;
+    border-radius:1rem;
+}
+
+#Calculator{
+    margin: 1%;
+    padding: 2%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#num-btns
+{
+    width: 90%;
+    text-align: center;
+    gap: 0.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+    margin: 4%;
+    
+}
+
+.btns{
+    text-align: center;
+    background-color: rgb(207, 207, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#del{
+    background-color: rgb(255, 27, 26);
+    font-size: 1.5rem;
+}
+#equal{
+    grid-column-start: 1;
+    grid-column-end:5 ;
+    background-color:rgb(255, 27, 26) ;
+}
+.btns>p{
+    margin: 0%;
+}
