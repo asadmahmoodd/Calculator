@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 
 body{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Michroma';
     background-color: rgb(69, 125, 125);
     display: flex;
@@ -9,32 +9,37 @@ body{
     justify-content: center;
     height: 100vh;
     margin: 0%;
+    touch-action: manipulation;
    
 }
 #display{
     background-color: rgb(207, 207, 207);
-    width: 98%;
+    max-width: 276px;
+    min-width: 276px;
     height: 4rem;
     margin-bottom:5%;
+    color: black;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 2rem;
+    overflow: hidden;
    }
 #cal-heading{
     font-size: 14pt;
     margin: 0%;
     margin-bottom: 2%;
 }
-#display-num
-{
-    font-family: "Michroma";
-    font-size: 2rem;
-     background-color: #cfcfcf;
+/* #display-num
+{ 
     text-align: right;
-    margin-bottom: 5%;
-    height: 3.5rem;
     color: black;
     max-width:  270px;
     min-width: 270px;
-    border-radius: 0.3rem;
-}
+   
+    outline: none;
+} */
 #main-container{
     min-width: 300px;
    min-height: 430px;
@@ -63,9 +68,8 @@ body{
 #num-btns
 {
     width: 90%;
-
     text-align: center;
-    gap: 0.5em;
+    gap: 0.25em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
