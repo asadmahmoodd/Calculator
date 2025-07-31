@@ -5,7 +5,7 @@ const nums=document.getElementById("num-btns");
 nums.addEventListener("click",(e)=>
     {   
         const number=e.target.id;
-        if(number!='/'&&number!='x'&&number!='+'&&number!='-'&&number!='del'&&number!='num-btns')
+        if(number!='/'&&number!='x'&&number!='+'&&number!='-'&&number!='del'&&number!='num-btns'&&number!='equal')
         {   const input=document.getElementById("display-num");
 
             if(input.value=='0')
