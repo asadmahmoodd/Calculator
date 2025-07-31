@@ -26,14 +26,13 @@ body{
 {
     font-family: "Michroma";
     font-size: 2rem;
-    background-color: rgb(207, 207, 207);
+     background-color: #cfcfcf;
     text-align: right;
     margin-bottom: 5%;
     height: 3.5rem;
     color: black;
     max-width:  270px;
     min-width: 270px;
-
     border-radius: 0.3rem;
 }
 #main-container{
