@@ -37,9 +37,10 @@ nums.addEventListener("click",(e)=>
             let expression=input.innerHTML;
             expression=expression.replaceAll("x","*");
             let solve=eval(expression);
-            console.log(solve)
-            console.log(solve.toString());
-            input.innerHTML=solve.toString();
+            if(solve%1!=0)
+                solve.toFixed(3);
+            solve=solve.toString();
+            input.innerHTML=solve;
             
         }
        }

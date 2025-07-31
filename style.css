@@ -29,17 +29,8 @@ body{
 #cal-heading{
     font-size: 14pt;
     margin: 0%;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
 }
-/* #display-num
-{ 
-    text-align: right;
-    color: black;
-    max-width:  270px;
-    min-width: 270px;
-   
-    outline: none;
-} */
 #main-container{
     min-width: 300px;
    min-height: 430px;
@@ -67,7 +58,7 @@ body{
 }
 #num-btns
 {
-    width: 90%;
+    width: 97%;
     text-align: center;
     gap: 0.25em;
     display: grid;
@@ -85,7 +76,8 @@ body{
     align-items: center;
     cursor: pointer;
     color: black;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
+    padding: 4%;
     font-family: "Michroma";
     border: none;
     
@@ -105,8 +97,3 @@ body{
     margin: 0%;
 }
 
-@media (max-width:400px)
-{
-
-
-}
